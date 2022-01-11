@@ -1,17 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <Card />
+  <OverridenCard />
+  <OverridenCardWithTemplate />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Card from "./components/Card.vue";
+import OverridenCard from "./components/OverridenCard.vue";
+import OverridenCardWithTemplate from "./components/OverridenCardWithTemplate.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    Card,
+    OverridenCard,
+    OverridenCardWithTemplate
+},
+};
 </script>
 
 <style>
