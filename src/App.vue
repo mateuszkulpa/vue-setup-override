@@ -4,6 +4,7 @@
   <OverridenCard />
   <OverridenCardWithTemplate />
   <SetupAndTemplate />
+  <OverridenWithHoc />
 </template>
 
 <script>
@@ -11,6 +12,7 @@ import Card from "./components/Card.vue";
 import OverridenCard from "./components/OverridenCard.vue";
 import OverridenCardWithTemplate from "./components/OverridenCardWithTemplate.vue";
 import SetupAndTemplate from "./components/SetupAndTemplate.vue";
+import OverridenWithHoc from "./components/OverridenWithHoc.vue";
 
 export default {
   name: "App",
@@ -18,7 +20,8 @@ export default {
     Card,
     OverridenCard,
     OverridenCardWithTemplate,
-    SetupAndTemplate
+    SetupAndTemplate,
+    OverridenWithHoc
 },
 };
 </script>
