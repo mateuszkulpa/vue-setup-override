@@ -3,19 +3,22 @@
   <Card />
   <OverridenCard />
   <OverridenCardWithTemplate />
+  <SetupAndTemplate />
 </template>
 
 <script>
 import Card from "./components/Card.vue";
 import OverridenCard from "./components/OverridenCard.vue";
 import OverridenCardWithTemplate from "./components/OverridenCardWithTemplate.vue";
+import SetupAndTemplate from "./components/SetupAndTemplate.vue";
 
 export default {
   name: "App",
   components: {
     Card,
     OverridenCard,
-    OverridenCardWithTemplate
+    OverridenCardWithTemplate,
+    SetupAndTemplate
 },
 };
 </script>
